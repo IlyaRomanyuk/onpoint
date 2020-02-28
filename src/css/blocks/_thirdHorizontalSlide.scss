@@ -1,0 +1,125 @@
+.thirdHorizontalSlide{
+    position: relative;
+
+   &__img{
+       position: absolute;
+       top: 17%; 
+       left: 50%;
+       transform: translateX(-50%);
+   }
+
+   &__title{
+       position: absolute;
+       top: 3%;
+       left: 5%;
+       color: #fff;
+       font-size: 31px;
+   }
+
+   &__block{
+       position: absolute;
+       top: 25%;
+       left: 50%;
+       transform: translateX(-50%);
+
+       width: 250px;
+       height: 90px;
+
+       border: 1px solid #fff;
+
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+       color: #fff;
+       font-size: 25px;
+   }
+
+  &__ice{
+       position: absolute;
+
+       top: 520px;
+       left: 0;
+   }
+
+   &__smallIce{
+       position: absolute;
+
+       top: 20px;
+       right: 40px;
+   }
+
+   &__fadeIce{
+    position: absolute;
+
+    top: 160px;
+    right: 180px;
+   }
+
+}
+
+.bett{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 7%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__number{
+        color: #fff;
+        font-size: 36px;
+    }
+
+    &__title{
+        color: #fff;
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+}
+
+.muscle{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__number{
+        color: #fff;
+        font-size: 36px;
+    }
+
+    &__title{
+        color: #fff;
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+}
+
+.capa{
+    position: absolute;
+    right: 20%;
+    top: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__number{
+        color: #fff;
+        font-size: 36px;
+    }
+
+    &__title{
+        color: #fff;
+        font-size: 22px;
+    }
+}

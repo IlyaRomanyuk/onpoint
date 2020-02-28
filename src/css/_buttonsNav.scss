@@ -1,0 +1,27 @@
+.buttonsNav {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    transform: translateX(-50%);
+
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    transform: rotate(0deg);
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        transform: rotate(360deg);
+        transition: all 0.5s ease-in-out;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}

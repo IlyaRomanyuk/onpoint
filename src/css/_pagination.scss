@@ -1,0 +1,28 @@
+.pagination{
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateX(-50%);
+
+    &__point {
+        width: 14px;
+        height: 14px;
+        background-color: #fff;
+        margin-bottom: 7px;
+        border-radius: 50px;
+
+        transition: all 0.3s ease-in-out;
+
+        &:hover{
+            transform: scale(1.2);
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
+
+.active {
+    background-color: #f78b1f;;
+}
